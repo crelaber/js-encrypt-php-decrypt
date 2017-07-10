@@ -1,0 +1,19 @@
+<html>
+<head>test crypto-js</head>
+<script src="crypto-js/aes.js" type="text/javascript"></script>
+<script src="crypto-js/md5.js" type="text/javascript"></script>
+<script src="crypto-js/components/pad-zeropadding-min.js" type="text/javascript"></script>
+<script src="crypto-helper-zeropadding.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+var data = '111111';
+var encode = encrypt(data);
+console.log('encode is =======>'+encode);
+var decode = decrypt(encode);
+console.log('decode is =======>'+decode);
+alert('encode is ====>'+encode+',decode is ====>'+decode);
+</script>
+
+
+</html>
